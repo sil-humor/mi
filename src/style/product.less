@@ -1,0 +1,426 @@
+@import 'reset.less';
+@import 'common.less';
+@import 'footer.less';
+
+#top{
+    border-bottom: 1px solid #ccc;
+}
+
+.main_top{
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 3px 3px 2px #eee;
+
+    .wrapper{
+        padding: 20px 0;
+
+        h3{
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+
+            a{
+                float: right;
+                font-size: 14px;
+                color: #666;
+            }
+
+            a:hover{
+                color: #ff6700;
+            }
+        }
+    }
+}
+
+#main{  
+
+    .main_left{
+        width: 50%;
+        height: 1200px;
+        float: left;
+
+        img{
+            display: block;
+            width: 90%;
+            margin: 50px auto;
+        }
+    }
+
+    .main_right{
+        width: 50%;
+        float: left;
+        padding-top: 40px;
+
+        .msg_box{
+            >h3{
+                font-size: 24px;
+                font-weight: normal;
+                margin-bottom: 15px;
+            }
+    
+            >p{
+                font-size: 14px;
+                color: #999;
+                margin-bottom: 20px;
+            }
+    
+            span{
+                color: #ff6700;
+            }
+    
+            .oneself{
+                display: block;
+                margin-bottom: 12px;
+                font-size: 14px;
+            }
+    
+            >em{
+                font-size: 17px;
+                color: #ff6700;
+    
+                del{
+                    color: #999;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .activity_box{
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            margin: 15px 0;
+            padding: 10px 0;
+
+            div{
+                height: 25px;
+
+                span{
+                    display: block;
+                    width: 80px;
+                    height: 25px;
+                    background-color: #ff6700;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 25px;
+                    font-size: 14px;
+                    float: left;
+                    margin-right: 5px;
+                }
+
+                i{
+                    font-size: 14px;
+                }
+            }
+
+            div:nth-child(1){
+                margin-bottom: 5px;
+            }
+        }
+
+        .address_box{
+            height: 40px;
+            background-color: #fafafa;
+            border: 1px solid #e0e0e0;
+            padding: 30px 50px;
+            font-size: 14px;
+            position: relative;
+
+            i{
+                position: absolute;
+                left: 28px;
+                font-size: 18px;
+            }
+
+            p{
+                margin-bottom: 3px;
+
+                span{
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .type_box{
+            margin-top: 20px;
+
+            p{
+                font-size: 18px;
+                margin: 10px 0;
+            }
+
+            a{
+                display: block;
+                width: 280px;
+                height: 40px;
+                border: 1px solid #ff6700;
+                text-align: center;
+                line-height: 40px;
+                margin: 15px 0 20px;
+                color: #ff6700;
+            }
+        }
+
+        .member_service{
+            p{
+                font-size: 18px;
+                margin: 30px 0 10px;
+
+                span{
+                    font-size: 14px;
+                    float: right;
+                }
+            }
+
+            >div{
+                height: 80px;
+                border: 1px solid #ccc;
+                padding: 25px 60px 5px ;
+                position: relative;
+                cursor: pointer;
+
+                i{
+                    display: block;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    border: 1px solid #ccc;
+                    text-align: center;
+                    line-height: 14px;
+                    color: #fff;    
+                    font-size: 14px;
+                    position: absolute;
+                    top: 50px;
+                    left: 40px;
+                }
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                    float: left;
+                    margin: 0 20px;
+                }
+
+                div{
+
+                    p{
+                        font-size: 14px;
+                        color: #aaa;
+                        margin-top: 15px;
+
+                        span{
+                            float: right;
+                            color: #aaa;
+                        }
+                    }
+                }
+            }
+        }
+
+        .install_service{
+            p{
+                font-size: 18px;
+                margin: 30px 0 10px;
+
+                span{
+                    font-size: 14px;
+                    float: right;
+                }
+            }
+
+            >div{
+                height: 80px;
+                border: 1px solid #ccc;
+                padding: 25px 60px 5px;
+                position: relative;
+                cursor: pointer;
+
+                i{
+                    display: block;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    border: 1px solid #ccc;
+                    text-align: center;
+                    line-height: 14px;
+                    color: #fff;    
+                    font-size: 14px;
+                    position: absolute;
+                    top: 50px;
+                    left: 40px;
+                }
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                    float: left;
+                    margin: 0 20px;
+                }
+
+                div{
+
+                    p{
+                        font-size: 14px;
+                        color: #aaa;
+                        margin-top: 15px;
+
+                        span{
+                            float: right;
+                            color: #aaa;
+                        }
+                    }
+                }
+            }
+            >div:nth-child(3){
+               margin-top: -1px;
+            }
+        }
+
+        .maintain_service{
+            p{
+                font-size: 18px;
+                margin: 30px 0 10px;
+
+                span{
+                    font-size: 14px;
+                    float: right;
+                }
+            }
+
+            >div{
+                height: 80px;
+                border: 1px solid #ccc;
+                padding: 25px 60px 30px;
+                position: relative;
+                cursor: pointer;
+
+                i{
+                    display: block;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    border: 1px solid #ccc;
+                    text-align: center;
+                    line-height: 14px;
+                    color: #fff;    
+                    font-size: 14px;
+                    position: absolute;
+                    top: 50px;
+                    left: 40px;
+                }
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                    float: left;
+                    margin: 0 20px;
+                }
+
+                div{
+
+                    p{
+                        font-size: 14px;
+                        color: #aaa;
+                        margin-top: 15px;
+                    }
+
+                    div{
+                        margin-left: 80px;
+                        font-size: 14px;
+                        position: relative;
+                        padding-left: 24px;
+
+                        i{
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 0;
+                            line-height: 12px;
+                            font-size: 12px;
+                            left: 9px;
+                            top: 3px;
+                        }
+
+                        >em{
+                            color: black;
+                        }
+
+                        a{
+                            color: #ff6700;
+                        }
+
+                        span{
+                            float: right;
+                            color: #aaa;
+                        }
+                    }
+                }
+            }
+
+            >div:nth-child(3),
+            >div:nth-child(4){
+                margin-top: -1px;
+            }
+        }
+
+        .shopping_msg{
+            background-color: #f9f9fa;
+            padding: 30px;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #666;
+            p{
+                margin-bottom: 10px;
+                
+                em{
+                    float: right;
+                }
+            }
+
+            div{
+                font-size: 24px;
+                color: #ff6700;
+                margin-top: 30px;
+            }
+        }
+
+        .btn_box{
+            margin-top: 30px;
+
+            a{
+                display: block;
+                width: 300px;
+                height: 55px;
+                background-color: #ff6700;
+                color: #fff;
+                float: left;
+                text-align: center;
+                line-height: 55px;
+            }
+
+            a:nth-child(2){
+                width: 150px;
+                background-color: #aaa;
+                margin-left: 10px;
+            }
+        }
+
+        .sale_self{
+            float: left;
+            margin-top: 20px;
+
+            span{
+                color: #aaa;
+            }
+        }
+    }
+}
+
+.selected{
+    background-color: #ff6700 !important;
+    border-color: #ff6700 !important; 
+}
+
+.orange{
+    color: #ff6700 !important;
+    border:1px solid #ff6700 !important;
+    z-index: 99;
+    position: relative;
+}

@@ -1,0 +1,218 @@
+.wrapper {
+  width: 1226px;
+  margin: 0 auto;
+}
+/* 头部 */
+.top_nav {
+  background-color: #333333;
+}
+.top_nav li {
+  float: left;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 5px;
+  margin-right: 12px;
+}
+.top_nav li a {
+  color: #aaa;
+  font-size: 12px;
+}
+.top_nav li a:hover {
+  color: white;
+}
+.top_nav_right {
+  float: right;
+}
+.top_nav_right .shopping {
+  margin-top: 0;
+  line-height: 40px;
+  position: relative;
+  height: 40px;
+  margin-bottom: 0;
+}
+.top_nav_right .shopping a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: #424242;
+}
+.top_nav_right .shopping a i {
+  padding-right: 7px;
+  font-weight: bold;
+}
+.top_nav_right .shopping a:hover {
+  color: #ff6700;
+  background-color: #fff;
+}
+.shopping_select {
+  width: 318px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: white;
+  display: none;
+  box-shadow: 0 0 1px 0;
+  z-index: 99;
+}
+.shopping:hover .shopping_select {
+  display: block;
+}
+.main_topnav > :nth-child(n) {
+  float: left;
+}
+.main_topnav h1 {
+  margin-right: 170px;
+}
+.main_topnav h1 a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: url(../img/mi-logo.png) no-repeat center center, url(../img/mi-home.png) no-repeat -50px center;
+  background-color: #ff6700;
+  transition: background 0.2s ease-out;
+  margin-top: 23px;
+}
+.main_topnav h1 a:hover {
+  background: url(../img/mi-logo.png) no-repeat 50px center, url(../img/mi-home.png) no-repeat center center;
+  background-color: #ff6700;
+}
+.main_topnav > div > ul {
+  width: 617px;
+}
+.main_topnav > div > ul > li {
+  float: left;
+  padding: 40px 10px 45px;
+  height: 100%;
+}
+.main_topnav > div > ul > li:hover > a {
+  color: #ff6700;
+}
+.main_topnav > div > ul li:hover .subnav_fir {
+  height: 250px;
+  border-top: 1px solid #ccc;
+}
+.main_topnav form {
+  margin-top: 23px;
+  margin-left: 75px;
+}
+.main_topnav [type="text"] {
+  width: 245px;
+  height: 50px;
+  outline: 0;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  float: left;
+  text-indent: 10px;
+}
+.main_topnav [type="submit"] {
+  width: 52px;
+  height: 52px;
+  outline: 0;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-left: 0;
+}
+.subnav_fir {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 142px;
+  box-shadow: 0 3px 5px #ccc;
+  overflow: hidden;
+  height: 0;
+  transition: height 0.5s;
+  z-index: 99;
+}
+.subnav_fir li {
+  text-align: center;
+  float: left;
+  padding: 40px 20px 0;
+  line-height: 20px;
+  font-size: 14px;
+  position: relative;
+}
+.subnav_fir li img {
+  display: block;
+}
+.subnav_fir li div {
+  margin-top: 20px;
+}
+.subnav_fir li p {
+  color: orangered;
+  margin-top: 5px;
+}
+.subnav_fir li::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100px;
+  background-color: #ccc;
+  position: absolute;
+  right: 0;
+  top: 43px;
+}
+.subnav_fir :last-child::after {
+  display: none;
+}
+.right_nav {
+  position: fixed;
+  width: 90px;
+  background-color: #fff;
+  right: 0;
+  top: 33%;
+}
+.right_nav ul {
+  border: 1px solid #f5f5f5;
+}
+.right_nav ul div:nth-child(1) {
+  position: absolute;
+  left: -130px;
+  background-color: #fff;
+  width: 100px;
+  height: 180px;
+  padding: 0 10px;
+  display: none;
+}
+.right_nav ul div:nth-child(1) img {
+  display: block;
+  width: 100px;
+  margin: 15px auto 10px;
+}
+.right_nav ul div:nth-child(1) p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+.right_nav ul li {
+  text-align: center;
+  border-bottom: 1px solid #f4f4f4;
+}
+.right_nav ul li a {
+  display: block;
+  color: #777;
+  padding: 20px 10px;
+  transition: color 0.3s;
+}
+.right_nav ul li a i {
+  font-size: 25px;
+}
+.right_nav ul li a span {
+  font-size: 14px;
+}
+.right_nav ul li a:hover {
+  color: #ff6700;
+}
+.right_nav ul li:nth-child(3) i {
+  font-size: 32px;
+}
+.right_nav ul > li:last-child {
+  position: absolute;
+  bottom: -110px;
+  width: 88px;
+  background-color: #fff;
+  display: none;
+}

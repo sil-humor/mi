@@ -1,0 +1,458 @@
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 16px "微软雅黑";
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+/* 解决高度塌陷 */
+.clearcollapse::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* 垂直居中(加定位) */
+.midmost {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#footer > .wrapper > ul {
+  height: 25px;
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+}
+#footer > .wrapper > ul li {
+  float: left;
+  border-left: 1px solid #ccc;
+  padding: 0 55px;
+}
+#footer > .wrapper > ul li i {
+  font-size: 24px;
+  padding-right: 5px;
+}
+#footer > .wrapper > ul li a {
+  color: #666;
+  transition: color 0.3s;
+}
+#footer > .wrapper > ul li a:hover {
+  color: #ff6700;
+}
+#footer > .wrapper > ul li:nth-child(1) {
+  border-left: 0;
+}
+#footer > .wrapper > ul li:nth-child(3) i {
+  font-weight: bold;
+}
+#footer > .wrapper > div:nth-child(2) {
+  padding: 30px 0;
+}
+#footer > .wrapper > div:nth-child(2) dl {
+  float: left;
+  padding: 0 48px;
+}
+#footer > .wrapper > div:nth-child(2) dt {
+  padding-bottom: 25px;
+  color: #333;
+  font-size: 14px;
+}
+#footer > .wrapper > div:nth-child(2) dd {
+  padding-bottom: 10px;
+}
+#footer > .wrapper > div:nth-child(2) dd a {
+  color: #888;
+  font-size: 12px;
+}
+#footer > .wrapper > div:nth-child(2) dd a:hover {
+  color: #ff6700;
+}
+#footer > .wrapper > div:nth-child(2) dl:nth-child(1) {
+  padding-left: 0;
+}
+#footer .contact {
+  width: 200px;
+  float: right;
+  padding-left: 50px;
+  border-left: 1px solid #ccc;
+}
+#footer .contact .phone {
+  font-size: 20px;
+  color: #ff6700;
+}
+#footer .contact p {
+  font-size: 12px;
+  color: #666;
+}
+#footer .contact p:nth-child(2) {
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+#footer .contact > a {
+  display: block;
+  width: 105px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+#footer .contact i {
+  font-weight: bold;
+  margin-right: 5px;
+}
+#footer .contact a:hover {
+  background-color: #ff6700;
+  color: white;
+}
+#footer .contact div {
+  color: #666;
+  font-size: 12px;
+  position: relative;
+  line-height: 24px;
+}
+#footer .contact div a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+#footer .contact div a:nth-child(1) {
+  background: url(../img/wb.png);
+  background-size: cover;
+}
+#footer .contact div a:nth-child(1):hover {
+  background: url(../img/wb@2x.png);
+  background-size: cover;
+}
+#footer .contact div a:nth-child(2) {
+  background: url(../img/wx.png);
+  background-size: cover;
+}
+#footer .contact div a:nth-child(2):hover {
+  background: url(../img/wx@2x.png);
+  background-size: cover;
+}
+#footer .contact div img {
+  width: 130px;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  display: none;
+}
+#footer > div > .wrapper {
+  font-size: 12px;
+  color: #666;
+  padding-left: 120px;
+  position: relative;
+}
+#footer > div > .wrapper > div:nth-child(1) {
+  position: absolute;
+  left: 55px;
+}
+#footer > div > .wrapper > div:nth-child(1) img {
+  width: 55px;
+  height: 55px;
+}
+#footer > div > .wrapper > p {
+  height: 21px;
+  background: url(../img/slogan2020.png) no-repeat 43%;
+  margin-top: 30px;
+}
+#footer > div > .wrapper p {
+  line-height: 20px;
+}
+#footer > div > .wrapper p a {
+  color: #666;
+}
+#footer > div > .wrapper p:nth-child(3) {
+  color: #aaa;
+}
+#footer > div > .wrapper p:nth-child(3) a {
+  color: #aaa;
+}
+#footer > div > .wrapper p:nth-child(3) a:hover {
+  color: #ff6700;
+}
+#footer > div > .wrapper .sep {
+  color: #ccc;
+}
+#footer > div > .wrapper a:hover {
+  color: #ff6700;
+}
+#footer > div > .wrapper img {
+  height: 28px;
+}
+#footer > div > .wrapper > div:nth-child(3) {
+  margin-top: 5px;
+}
+#footer > div > .wrapper > div:nth-child(3) a {
+  position: relative;
+}
+#footer > div > .wrapper > div:nth-child(3) a:last-child img {
+  height: 40px;
+}
+#footer > div > .wrapper > div:nth-child(3) .img2 {
+  position: absolute;
+  left: 0;
+  top: -27px;
+}
+#footer > div > .wrapper > div:nth-child(3) .hidden {
+  display: none;
+}
+#footer > div:nth-child(2) {
+  background-color: #f5f5f5;
+  padding: 30px 0;
+}
+.wrapper {
+  width: 1226px;
+  margin: 0 auto;
+}
+#top {
+  padding-bottom: 25px;
+  border-bottom: 2px solid #ff6700;
+}
+#top .wrapper h1 {
+  float: left;
+  margin-right: 50px;
+}
+#top .wrapper h1 a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: url(../img/mi-logo.png) no-repeat center center, url(../img/mi-home.png) no-repeat -50px center;
+  background-color: #ff6700;
+  transition: background 0.2s;
+  margin-top: 23px;
+}
+#top .wrapper h1 a:hover {
+  background: url(../img/mi-logo.png) no-repeat 50px center, url(../img/mi-home.png) no-repeat center center;
+  background-color: #ff6700;
+}
+#top .wrapper h2 {
+  float: left;
+  margin-top: 30px;
+  font-weight: normal;
+  font-size: 28px;
+  margin-right: 15px;
+}
+#top .wrapper p {
+  float: left;
+  margin-top: 47px;
+  font-size: 12px;
+  color: #777;
+}
+#top .wrapper div {
+  float: right;
+  margin-top: 44px;
+  font-size: 12px;
+}
+#top .wrapper div a {
+  color: #777;
+}
+#top .wrapper div a:hover {
+  color: #ff6700;
+}
+#main {
+  background-color: #f5f5f5;
+  height: 800px;
+  padding-top: 40px;
+}
+#main .shopping_list {
+  background-color: #fff;
+}
+#main .shopping_list .col-check {
+  width: 100px;
+  position: relative;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+#main .shopping_list .col-check i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 18px;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 25px;
+  left: 22px;
+  cursor: pointer;
+}
+#main .shopping_list .col-check i:hover {
+  color: #666;
+}
+#main .shopping_list .col-img {
+  width: 120px;
+  margin-top: 5px;
+}
+#main .shopping_list .col-name {
+  width: 380px;
+  text-align: left !important;
+}
+#main .shopping_list .col-price {
+  width: 140px;
+  padding-right: 18px;
+}
+#main .shopping_list .col-number {
+  width: 150px;
+}
+#main .shopping_list .col-sum {
+  width: 120px;
+  padding-right: 81px;
+  text-align: right !important;
+}
+#main .shopping_list .col-action {
+  width: 80px;
+}
+#main .shopping_list .option {
+  width: 1200px;
+  padding-right: 26px;
+  font-size: 14px;
+}
+#main .shopping_list .option div {
+  height: 70px;
+  float: left;
+  line-height: 70px;
+  text-align: center;
+}
+#main .shopping_list .goods {
+  height: 86px;
+  padding: 15px 26px 15px 0;
+  border-top: 1px solid #ddd;
+}
+#main .shopping_list .goods div {
+  height: 86px;
+  float: left;
+  line-height: 86px;
+  text-align: center;
+}
+#main .shopping_list .goods .col-check i {
+  top: 37px;
+}
+#main .shopping_list .goods .col-img {
+  text-align: left;
+}
+#main .shopping_list .goods .col-img img {
+  width: 80px;
+  height: 80px;
+}
+#main .shopping_list .goods .col-name {
+  font-size: 18px;
+}
+#main .shopping_list .goods .col-number input {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  outline: none;
+}
+#main .shopping_list .goods .col-sum {
+  color: #ff6700;
+}
+#main .shopping_list .goods .col-action a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  line-height: 24px;
+  margin: 30px auto;
+}
+#main .shopping_list .goods .col-action a i {
+  font-size: 18px;
+  font-weight: bold;
+}
+#main .shopping_list .goods .col-action a:hover {
+  background-color: #ff6700;
+}
+#main .shopping_list .goods .col-action a:hover i {
+  color: #fff;
+}
+#main .count {
+  height: 50px;
+  background-color: #fff;
+  margin-top: 20px;
+  line-height: 50px;
+}
+#main .count .count_left {
+  float: left;
+  font-size: 14px;
+}
+#main .count .count_left a {
+  padding: 0 20px;
+}
+#main .count .count_left span {
+  border-left: 1px solid #dfdfdf;
+  padding-left: 20px;
+}
+#main .count .count_left span i {
+  color: #ff6700;
+}
+#main .count .count_right {
+  float: right;
+  font-size: 14px;
+  color: #ff6700;
+}
+#main .count .count_right span {
+  font-size: 30px;
+}
+#main .count .count_right a {
+  display: block;
+  width: 210px;
+  float: right;
+  text-align: center;
+  background-color: #ff6700;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 50px;
+}
+.selected {
+  background-color: #ff6700 !important;
+  border-color: #ff6700 !important;
+  color: #fff !important;
+}

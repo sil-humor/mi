@@ -1,0 +1,190 @@
+#footer > .wrapper > ul {
+  height: 25px;
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+}
+#footer > .wrapper > ul li {
+  float: left;
+  border-left: 1px solid #ccc;
+  padding: 0 55px;
+}
+#footer > .wrapper > ul li i {
+  font-size: 24px;
+  padding-right: 5px;
+}
+#footer > .wrapper > ul li a {
+  color: #666;
+  transition: color 0.3s;
+}
+#footer > .wrapper > ul li a:hover {
+  color: #ff6700;
+}
+#footer > .wrapper > ul li:nth-child(1) {
+  border-left: 0;
+}
+#footer > .wrapper > ul li:nth-child(3) i {
+  font-weight: bold;
+}
+#footer > .wrapper > div:nth-child(2) {
+  padding: 30px 0;
+}
+#footer > .wrapper > div:nth-child(2) dl {
+  float: left;
+  padding: 0 48px;
+}
+#footer > .wrapper > div:nth-child(2) dt {
+  padding-bottom: 25px;
+  color: #333;
+  font-size: 14px;
+}
+#footer > .wrapper > div:nth-child(2) dd {
+  padding-bottom: 10px;
+}
+#footer > .wrapper > div:nth-child(2) dd a {
+  color: #888;
+  font-size: 12px;
+}
+#footer > .wrapper > div:nth-child(2) dd a:hover {
+  color: #ff6700;
+}
+#footer > .wrapper > div:nth-child(2) dl:nth-child(1) {
+  padding-left: 0;
+}
+#footer .contact {
+  width: 200px;
+  float: right;
+  padding-left: 50px;
+  border-left: 1px solid #ccc;
+}
+#footer .contact .phone {
+  font-size: 20px;
+  color: #ff6700;
+}
+#footer .contact p {
+  font-size: 12px;
+  color: #666;
+}
+#footer .contact p:nth-child(2) {
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+#footer .contact > a {
+  display: block;
+  width: 105px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+#footer .contact i {
+  font-weight: bold;
+  margin-right: 5px;
+}
+#footer .contact a:hover {
+  background-color: #ff6700;
+  color: white;
+}
+#footer .contact div {
+  color: #666;
+  font-size: 12px;
+  position: relative;
+  line-height: 24px;
+}
+#footer .contact div a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+#footer .contact div a:nth-child(1) {
+  background: url(../img/wb.png);
+  background-size: cover;
+}
+#footer .contact div a:nth-child(1):hover {
+  background: url(../img/wb@2x.png);
+  background-size: cover;
+}
+#footer .contact div a:nth-child(2) {
+  background: url(../img/wx.png);
+  background-size: cover;
+}
+#footer .contact div a:nth-child(2):hover {
+  background: url(../img/wx@2x.png);
+  background-size: cover;
+}
+#footer .contact div img {
+  width: 130px;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  display: none;
+}
+#footer > div > .wrapper {
+  font-size: 12px;
+  color: #666;
+  padding-left: 120px;
+  position: relative;
+}
+#footer > div > .wrapper > div:nth-child(1) {
+  position: absolute;
+  left: 55px;
+}
+#footer > div > .wrapper > div:nth-child(1) img {
+  width: 55px;
+  height: 55px;
+}
+#footer > div > .wrapper > p {
+  height: 21px;
+  background: url(../img/slogan2020.png) no-repeat 43%;
+  margin-top: 30px;
+}
+#footer > div > .wrapper p {
+  line-height: 20px;
+}
+#footer > div > .wrapper p a {
+  color: #666;
+}
+#footer > div > .wrapper p:nth-child(3) {
+  color: #aaa;
+}
+#footer > div > .wrapper p:nth-child(3) a {
+  color: #aaa;
+}
+#footer > div > .wrapper p:nth-child(3) a:hover {
+  color: #ff6700;
+}
+#footer > div > .wrapper .sep {
+  color: #ccc;
+}
+#footer > div > .wrapper a:hover {
+  color: #ff6700;
+}
+#footer > div > .wrapper img {
+  height: 28px;
+}
+#footer > div > .wrapper > div:nth-child(3) {
+  margin-top: 5px;
+}
+#footer > div > .wrapper > div:nth-child(3) a {
+  position: relative;
+}
+#footer > div > .wrapper > div:nth-child(3) a:last-child img {
+  height: 40px;
+}
+#footer > div > .wrapper > div:nth-child(3) .img2 {
+  position: absolute;
+  left: 0;
+  top: -27px;
+}
+#footer > div > .wrapper > div:nth-child(3) .hidden {
+  display: none;
+}
+#footer > div:nth-child(2) {
+  background-color: #f5f5f5;
+  padding: 30px 0;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+
+    <script src="../js/login.js" type="module"></script>
+</head>
+
+<body>
+    <div id="top">
+        <div class="wrapper">
+            <a href="./index.html">
+                <img src="../img/login_logo.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="login_">
+            <div>
+                <span class="active">账号登录</span>
+                <em></em>
+                <span class="saoma">扫码登录</span>
+            </div>
+            <div>
+                <form method="POST" action="../../interface/login.php">
+                    <input type="text" placeholder="邮箱/手机号码/小米ID" name="username">
+                    <input type="password" placeholder="密码" name="password">
+                    <button type="submit">登录</button>
+                </form>
+                <a href="">手机短信登录/注册</a>
+                <div>
+                    <a href="./zhuce.html">立即注册</a>
+                    <em>|</em>
+                    <a href="">忘记密码?</a>
+                </div>
+                <div class="clearcollapse">
+                    <a href="#">
+                        <em></em>
+                    </a>
+                    <a href="#">
+                        <em></em>
+                    </a>
+                    <a href="#">
+                        <em></em>
+                    </a>
+                    <a href="#">
+                        <em></em>
+                    </a>
+                </div>
+            </div>
+            <div class='nr_two'>
+                <div>
+                    <span>请使用小米手机/米家等小米旗下APP扫码登录</span>
+                    <img src="../img/下载.png" alt="">
+                    <p>使用<span>小米商城APP</span>扫一扫</p>
+                    <span>小米手机可打开「设置」>「小米帐号」扫码登录</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <ul class="clearcollapse">
+            <li>
+                <a href="#" class="actived">简体</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">繁体</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="">English</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="https://account.xiaomi.com/helpcenter/faq/zh_CN/00.introduction/faq-1" target="_blank">常见问题</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="https://privacy.mi.com/miaccount/zh_CN/" target="_blank">隐私政策</a>
+            </li>
+        </ul>
+        <p>
+            小米公司版权所有-京ICP备10046444-<span><img src="../img/footer/ghs.png" alt=""></span><a href="#">京公网安备11010802020134号</a>-京ICP证110507号
+        </p>
+    </div>
+</body>
+
+</html>

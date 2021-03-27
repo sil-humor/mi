@@ -1,0 +1,228 @@
+@charset 'utf-8';
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 16px "微软雅黑";
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+/* 解决高度塌陷 */
+.clearcollapse::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* 垂直居中(加定位) */
+.midmost {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.wrapper {
+  width: 1226px;
+  margin: 0 auto;
+}
+#footer {
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+#footer > ul {
+  width: 350px;
+  margin: 100px auto 10px;
+}
+#footer > ul > li {
+  float: left;
+  margin: 0 7px;
+}
+#footer > ul > li a:hover {
+  color: black;
+}
+#footer > ul > li .actived {
+  color: black;
+}
+#footer a {
+  color: #aaa;
+}
+#top img {
+  margin-left: 50px;
+}
+#main {
+  background: url(../img/login_bg.jpg) 50%;
+  height: 588px;
+  position: relative;
+}
+#main .login_ {
+  height: 550px;
+  width: 410px;
+  background-color: #fff;
+  position: absolute;
+  left: 58%;
+  bottom: 0;
+  text-align: center;
+}
+#main .login_ > div:nth-child(1) {
+  padding: 25px 10px;
+  text-align: center;
+}
+#main .login_ > div:nth-child(1) span {
+  font-size: 24px;
+  color: #666;
+  cursor: pointer;
+}
+#main .login_ > div:nth-child(1) span:hover {
+  color: #f56600;
+}
+#main .login_ > div:nth-child(1) em {
+  border-left: 1px solid #ccc;
+  height: 24px;
+  margin: 0 40px;
+}
+#main .login_ > div:nth-child(1) .active {
+  color: #f56600;
+}
+#main .login_ > div:nth-child(2) form input,
+#main .login_ > div:nth-child(2) form button {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 50px;
+  outline: 0;
+}
+#main .login_ > div:nth-child(2) form input {
+  border: 1px solid #ddd;
+  text-indent: 15px;
+  font-size: 14px;
+}
+#main .login_ > div:nth-child(2) form input:nth-child(2) {
+  margin-top: 15px;
+}
+#main .login_ > div:nth-child(2) form button {
+  width: 352px;
+  background-color: #f56600;
+  border: 0;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#main .login_ > div:nth-child(2) > a {
+  color: #f56600;
+  font-size: 14px;
+  line-height: 40px;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(3) {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(3) a {
+  color: #aaa;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(3) span:hover {
+  color: #f56600;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) {
+  width: 270px;
+  margin: 140px auto;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 18px;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a em {
+  margin: 5px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  background-image: url(../img/icons_type.png);
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a:nth-child(1) {
+  background-color: #0288d1;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a:nth-child(1) em {
+  background-position: -18px;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a:nth-child(2) {
+  background-color: #d32f2f;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a:nth-child(2) em {
+  background-position: -37px;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a:nth-child(3) {
+  background-color: #0ae;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a:nth-child(3) em {
+  width: 23px;
+  background-position: -58px;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a:nth-child(4) {
+  background-color: #00d20d;
+}
+#main .login_ > div:nth-child(2) > div:nth-child(4) > a:nth-child(4) em {
+  width: 22px;
+  background-position: -85px;
+}
+#main .login_ > div:nth-child(3) {
+  position: absolute;
+  top: 81px;
+  left: 10px;
+  height: 469px;
+  width: 390px;
+  background-color: #fff;
+  font-size: 13px;
+  display: none;
+}
+#main .login_ > div:nth-child(3) div {
+  margin-top: 80px;
+}
+#main .login_ > div:nth-child(3) img {
+  margin: 20px 0;
+}
+#main .login_ > div:nth-child(3) p span {
+  color: #f56600;
+  padding: 0 10px;
+}

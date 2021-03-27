@@ -1,0 +1,32 @@
+.wrapper {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+#footer {
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+#footer>ul {
+    width: 350px;
+    margin: 100px auto 10px;
+}
+
+#footer>ul>li {
+    float: left;
+    margin: 0 7px;
+}
+
+#footer>ul>li a:hover {
+    color: black;
+}
+
+#footer>ul>li .actived {
+    color: black;
+}
+
+#footer a {
+    color: #aaa;
+}

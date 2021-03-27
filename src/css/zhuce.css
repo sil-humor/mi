@@ -1,0 +1,206 @@
+@charset 'utf-8';
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 16px "微软雅黑";
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+/* 解决高度塌陷 */
+.clearcollapse::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* 垂直居中(加定位) */
+.midmost {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.wrapper {
+  width: 1226px;
+  margin: 0 auto;
+}
+#footer {
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+#footer > ul {
+  width: 350px;
+  margin: 100px auto 10px;
+}
+#footer > ul > li {
+  float: left;
+  margin: 0 7px;
+}
+#footer > ul > li a:hover {
+  color: black;
+}
+#footer > ul > li .actived {
+  color: black;
+}
+#footer a {
+  color: #aaa;
+}
+body {
+  background-color: #f9f9f9;
+}
+body > div:nth-child(1) {
+  width: 860px;
+  height: 560px;
+  background-color: #fff;
+  position: fixed;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  font-size: 14px;
+}
+body > div:nth-child(1) img {
+  display: block;
+  margin: 0 auto;
+}
+body > div:nth-child(1) h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 40px 0;
+}
+body > div:nth-child(1) form {
+  color: #666;
+}
+body > div:nth-child(1) form > div {
+  width: 330px;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+body > div:nth-child(1) form input,
+body > div:nth-child(1) form button {
+  display: block;
+  margin: 0 auto;
+  width: 330px;
+  height: 40px;
+  outline: 0;
+}
+body > div:nth-child(1) form input[type='text'] {
+  cursor: pointer;
+}
+body > div:nth-child(1) form input[type='tel'] {
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+body > div:nth-child(1) form input {
+  border: 1px solid #ddd;
+  text-indent: 15px;
+  font-size: 14px;
+}
+body > div:nth-child(1) form button {
+  width: 320px;
+  height: 45px;
+  background-color: #f56600;
+  border: 0;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+body > div:nth-child(1) form p {
+  margin: 5px 0 20px;
+}
+body > div:nth-child(1) form span {
+  display: block;
+  padding-bottom: 5px;
+}
+body > div:nth-child(1) form .under_circle {
+  position: absolute;
+  right: 7px;
+  top: 25px;
+  border-left: 1px solid #ccc;
+  height: 40px;
+  padding-top: 5px;
+  padding-left: 7px;
+  box-sizing: border-box;
+}
+body > div:nth-child(1) form .under_circle i {
+  font-size: 25px;
+  color: #ccc;
+}
+body > div:nth-child(1) form .under_san {
+  position: absolute;
+  left: 10px;
+  top: 135px;
+  width: 50px;
+  height: 40px;
+  border-right: 1px solid #ccc;
+  line-height: 40px;
+  cursor: pointer;
+}
+body > div:nth-child(1) form .under_san span {
+  float: left;
+}
+body > div:nth-child(1) form .under_san i {
+  font-size: 12px;
+  color: #999;
+}
+body > div:nth-child(1) form .wrong_msg {
+  background: url(../img/icon_user.png) -47px center no-repeat;
+  padding-left: 20px;
+  margin-top: 8px;
+  color: #f56600;
+}
+body > div:nth-child(1) > p {
+  margin-top: 80px;
+  color: #aaa;
+}
+body > div:nth-child(1) > p a {
+  display: inline-block;
+  padding: 0 5px;
+  font-weight: bold;
+}
+body #footer ul {
+  width: 280px;
+}
+body #footer img {
+  display: inline-block;
+}

@@ -1,0 +1,150 @@
+@charset 'utf-8';
+@import './reset.less';
+@import './login_zhuce.less';
+
+body{
+    background-color: #f9f9f9;
+
+    >div:nth-child(1){
+        width: 860px;
+        height: 560px;
+        background-color: #fff;
+        position: fixed;
+        top: 14%;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+        font-size: 14px;
+
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+
+        h2{
+            font-size: 30px;
+            font-weight: normal;
+            margin: 40px 0;
+        }
+
+
+        form {
+            color: #666;
+
+            >div{
+                width: 330px;
+                margin: 0 auto;
+                text-align: left;
+                position: relative;
+            }
+
+            input,button{
+                display: block;
+                margin: 0 auto;
+                width: 330px;
+                height: 40px;
+                outline: 0;
+            }
+
+            input[type='text']{
+                cursor: pointer;
+            }
+            
+            input[type='tel']{
+                padding-left: 60px;
+                box-sizing: border-box;
+            }
+
+            input{
+                border: 1px solid #ddd;
+                text-indent: 15px;
+                font-size: 14px;
+            }
+
+            button{
+                width: 320px;
+                height: 45px;
+                background-color: #f56600;
+                border: 0;
+                color: white;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+
+            p{
+                margin: 5px 0 20px;
+            }
+
+            span{
+                display: block;
+                padding-bottom: 5px;
+            }
+
+            .under_circle{
+                position: absolute;
+                right: 7px;
+                top: 25px;
+                border-left: 1px solid #ccc;
+                height: 40px;
+                padding-top: 5px;
+                padding-left: 7px;
+                box-sizing: border-box;
+
+                i{
+                    font-size: 25px;
+                    color: #ccc;
+                }
+            }
+
+            .under_san{
+                position: absolute;
+                left: 10px;
+                top: 135px;
+                width: 50px;
+                height: 40px;
+                border-right: 1px solid #ccc;
+                line-height: 40px;
+                cursor: pointer;
+
+                span{
+                    float: left;
+                }
+
+                i{
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+
+            .wrong_msg{
+                background: url(../img/icon_user.png) -47px center no-repeat;
+                padding-left: 20px;
+                margin-top: 8px;
+                color: #f56600;
+            }
+        }
+
+        >p{
+            margin-top: 80px;
+            color: #aaa;
+
+            a{
+                display: inline-block;
+                padding: 0 5px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    #footer{
+        ul{
+            width: 280px;
+        }
+
+        img{
+            display: inline-block;
+        }
+    }
+
+
+}

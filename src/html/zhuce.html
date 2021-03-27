@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/zhuce.css">
+    <link rel="stylesheet" href="../../iconfont/iconfont.css">
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/zhuce.js" type="module"></script>
+</head>
+
+<body>
+    <div>
+        <img src="../img/footer/milogo.png" alt="">
+        <h2>注册小米账号</h2>
+        <form method="POST" action="../../interface/zhuce.php">
+            <div>
+                <span>国家/地区</span>
+                <input type="text" value="中国">
+                <div class="under_circle">
+                    <i class="iconfont icon-xiangxia"></i>
+                </div>
+                <p>成功注册账号后，国家/地区将不能被修改</p>
+                <span>手机号码</span>
+                <div class="under_san">
+                    <span>+86</span>
+                    <i class="iconfont icon-xiangxia1"></i>
+                </div>
+                <input type="tel" placeholder="请输入手机号码" name="tel">
+                <div class="wrong_msg"></div>
+            </div>
+            <button type="submit">立即注册</button>
+        </form>
+        <p>已阅读已同意：小米<a href="https://static.account.xiaomi.com/html/agreement/user/zh_CN.html" target="_blank">用户协议</a>和<a href="https://privacy.mi.com/miaccount/zh_CN/" target="_blank">隐私政策</a></p>
+        <div id="footer">
+            <ul class="clearcollapse">
+                <li>
+                    <a href="#" class="actived">简体</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="#">繁体</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="#">English</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="https://account.xiaomi.com/helpcenter/faq/zh_CN/00.introduction/faq-1" target="_blank">常见问题</a>
+                </li>
+            </ul>
+            <p>
+                小米公司版权所有-京ICP备10046444-<span><img src="../img/footer/ghs.png" alt=""></span><a href="#">京公网安备11010802020134号</a>-京ICP证110507号
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
